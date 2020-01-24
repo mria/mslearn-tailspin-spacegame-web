@@ -28,7 +28,7 @@ steps:
   inputs:
     verbose: false
 
-- script: './node_modules/.bin/node-sass $(wwwRootDir) --output $(wwwroot)'
+- script: './node_modules/.bin/node-sass $(wwwRootDir) --output $(wwwRootDir)'
   displayName: 'Compile Sass assets'
 
 - task: gulp@1
